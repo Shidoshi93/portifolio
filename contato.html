@@ -8,6 +8,7 @@
     <meta name="author" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Meu Perfil</title>
 </head>
 
@@ -23,7 +24,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="main_contato">
         <form action="#" method="submit" id="formulario">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
@@ -44,14 +45,16 @@
             <button type="submit">Enviar</button>
         </form>
 
-        <article>
+        <article class="article_mapa">
+
+            <address>
+                <p>Cais do Porto - Largo do Trabalho, 46 - Cais do Porto, 90010-510</p>
+                <p>Porto Alegre - RS, Brasil</p>
+            </address>
+
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1784.1623373323912!2d-51.240193123109925!3d-30.035125642328676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197917c11ee4fd%3A0xc4d07b56891fa52d!2sUsina%20do%20Gas%C3%B4metro!5e1!3m2!1spt-BR!2sbr!4v1767750714219!5m2!1spt-BR!2sbr"
-                width="400" 
-                height="250" 
-                style="border:0;" 
-                allowfullscreen="" 
-                loading="lazy"
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </article>
